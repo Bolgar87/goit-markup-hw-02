@@ -19,7 +19,7 @@ color: #4D5AE5;
 font-family: "Raleway" , sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 
@@ -30,7 +30,7 @@ color: #2E2F42;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -42,6 +42,13 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
+
+.header-li:hover,
+.header-li:focus{
+  color: #404BBF;
+  font-size: 16px;
+  font-weight: 500;
+  }
 
 /* address */
 
@@ -56,19 +63,25 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
+.header-address:hover,
+.header-address:focus{
+color: #404BBF;
+font-size: 16px;
+font-weight: 500;
+}
 /* section1 Button */
 
-.section1-decor{
+.section-one-decor{
 background-color: #2E2F42;
 }
 
-.section1-text{
+.section-one-text{
 color:#FFF;
 text-align: center;
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
+line-height: 1.07;
+letter-spacing: 0.02em;
 
 }
 
@@ -78,14 +91,22 @@ color: #FFF;
 font-family:"Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.64px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 cursor: pointer;
+}
+
+.button:hover, 
+.button:focus{
+  background-color: #404bbf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 /* Section2 */
 
-.section2-text-h3{
+.section-two-text-hhh{
 color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
@@ -93,7 +114,7 @@ line-height: 24px;
 letter-spacing: 0.4px;
 }
 
-.section2-text{
+.section-two-text{
 color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -102,24 +123,24 @@ letter-spacing: 0.32px;
 }
 
 /* Section3 */
-.section3-decor{
+.section-three-decor{
 background-color: #F4F4FD;
 }
 
- .section3-fon{
+ .section-three-fon{
 background-color: #FFF ;
  }
 
-.section3-text-h2 {
+.section-three-text-hh {
 color: #2E2F42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
-.section3-text-h3 {
+.section-three-text-hhh {
 color:#2E2F42;
 text-align: center;
 font-size: 20px;
@@ -127,7 +148,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
 }
-.section3-text {
+.section-three-text {
 color: #434455;
 text-align: center;
 font-size: 16px;
@@ -163,7 +184,7 @@ letter-spacing: 0.32px;
 
 /* Section5 */
 
-.section5-decor{
+.section-five-decor{
 background:  #2E2F42;
 }
 
@@ -175,7 +196,7 @@ line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.section5-text {
+.section-five-text {
 color:  #F4F4FD;
 font-size: 16px;
 font-weight: 400;
