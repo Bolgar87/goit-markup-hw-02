@@ -158,7 +158,7 @@ letter-spacing: 0.32px;
 }
 /* Section4 */
 
-.section4-text-h2 {
+.section-four-text-hh {
 color: #2E2F42;
 text-align: center;
 font-size: 36px;
@@ -167,14 +167,14 @@ line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
-.section4-text-h3 {
+.section-four-text-hhh {
 color:#2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
 }
-.section4-text {
+.section-four-text {
 color: #434455;
 font-size: 16px;
 font-weight: 400;
